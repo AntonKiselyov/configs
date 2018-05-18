@@ -1,0 +1,3 @@
+server:
+  context-path: /photos
+  port: 6000
