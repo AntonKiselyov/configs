@@ -23,8 +23,8 @@ zuul:
         stripPrefix: false
         sensitiveHeaders:
     vk-service:
-        path: /vk-service/**
-        serviceId: vk-service
+        path: /vkservice/**
+        serviceId: vkservice
         stripPrefix: false
         sensitiveHeaders:
 
