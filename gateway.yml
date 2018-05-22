@@ -22,6 +22,11 @@ zuul:
         serviceId: photos
         stripPrefix: false
         sensitiveHeaders:
+    vk-service:
+        path: /vk-service/**
+        serviceId: vk-service
+        stripPrefix: false
+        sensitiveHeaders:
 
 server:
   port: 4000
