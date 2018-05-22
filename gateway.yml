@@ -22,7 +22,7 @@ zuul:
         serviceId: photos
         stripPrefix: false
         sensitiveHeaders:
-    vkservice:
+    netservice:
         path: /netservice/**
         serviceId: netservice
         stripPrefix: false
